@@ -22,7 +22,7 @@
                     src="assets/text-tracks/dog-video.vtt"
                     kind="captions"
                     srclang="en"
-                    label="english"
+                    label="EN captions"
                 >
         </div>
         <div>
@@ -32,20 +32,19 @@
             <p>
                 Obviously, none of us can understand what pigeons are saying, so we'll just make up some subtitles! Create your own time stamps and invent your own dialog!
             </p>
-            <video controls>
-                <source src="assets/videos/pigeons-in-love.mp4" type="video.mp4">
-                <track
-                    src="pigeons-in-love.vtt"
-                    kind="subtitles"
-                    srclang="english"
-                    label="english captions"
-                >
-                <track
-                    src="pigeons-in-love.vtt"
-                    kind="subtitles"
-                    srclang="fr"
-                    label="french"
-                >
+            <video width="400px" controls>
+                <source 
+                    src="assets/videos/pigeons-in-love.mp4" type="video/mp4">
+                <track 
+                    src="assets/text-tracks/pigeons-in-love-english.vtt" 
+                    kind="subtitles" 
+                    srclang="en" 
+                    label="English Subtitles">
+                <track 
+                    src="assets/text-tracks/pigeons-in-love-french.vtt" 
+                    kind="subtitles" 
+                    srclang="fr" 
+                    label="French Subtitles">
             </video>>
         </div>
     </main>
